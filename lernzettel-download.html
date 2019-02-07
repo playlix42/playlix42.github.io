@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Lernzettel-Download</title>
+	<link href="css-box-modell.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style type="text/css">
+	@media (min-width: 370px) {
+    .myClass{}
+	}
+	</style>
+	<meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+<script type="text/javascript">
+window.setTimeout('location.href="http://www.mediafire.com/folder/z75xr1p4ca1lr/Lernzettel"', 5000);
+var timeleft = 5
+var downloadTimer = setInterval(function(){
+	document.getElementById("progressBar").value = 5 - --timeleft;
+	if(timeleft <= 0)
+		clearInterval(downloadTimer);
+},1000);
+</script>
+<div style="text-align:center;">
+	<p>Weiterleitung in... <progress value="0" max="5" id="progressBar"></progress></p>
+	<p>Dabei verl&auml;sst du den Webbereich von http://felix.hune.caro-os.de. Wenn du dies nicht m&ouml;chtest, klicke auf den Link ganz unten!!!</p>
+	<p><a href="http://felix.hune.caro-os.de/lernzettel.html">Hier</a> geht's zur&uuml;ck!!!</p>
+</div>
+</body>
+</html>

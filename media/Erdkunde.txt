@@ -1,0 +1,84 @@
+_1; China
+_2; Mongolei
+_3; Nordkorea
+_4; Südkorea
+_5; Taiwan
+_6; Myanmar
+_7; Bangladesch
+_8; Bhutan
+_9; Nepal
+_10; Indien
+_11; Sri Lanka
+_12; Pakistan
+_13; Afghanistan
+_14; Kasachstan
+
+_A; Japanisches Meer
+_B; Gelbes Meer
+_C; Ostchinesisches Meer
+_D; Südchinesisches Meer
+_E; Golf von Bengalen
+_F; Indischer Ozean
+_G; Arabisches Meer
+
+a; Argun
+b; Huang He
+c; Jangtsekiang
+d; Mekong
+e; Nu Jiang
+f; Tsangpo
+g; Ganges
+
+1; Urumchi
+2; Ulan Bator
+3; Harbin
+4; Shengjang
+5; Pjöngjang
+6; Seoul
+7; Peking
+8; Tianjin
+9; Lanzhou
+10; Xi'an
+11; Nanjing
+12; Shanghai
+13; Wuhan
+14; Chengdu
+15; Chongqing
+16; Taipeh
+17; Kanton
+18; Hongkong
+19; Lhasa
+20; Kalkutta
+21; Lucknow
+22; Delhi
+23; Kanpur
+24; Nagpur
+25; Hyderabad
+26; Madras
+27; Bengalore
+28; Poona
+29; Bombay
+30; Vadodara
+31; Jaipur
+
+/\1; Mount Everest
+
+A; Tain Shan
+B; Kunlun Shan
+C; Karakorum
+D; Himalaya
+E; Wuyi Shan
+F; Ostghats
+G; Dekkan
+H; Westghats
+
+_a; Wüste Takla Makan
+_b; Hochland von Tibet
+_c; Rotes Becken
+_d; Große Ebene
+_e; Sakishma-Inseln
+_f; Hainan
+_g; Andamanen und Nikobaren
+_h; Kap Komorin
+_i; Lakkadiven
+_j; Gangestiefland
