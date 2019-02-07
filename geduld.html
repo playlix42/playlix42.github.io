@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Lernzettel-Download</title>
+	<link href="css-box-modell.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style type="text/css">
+	@media (min-width: 370px) {
+    .myClass{}
+	}
+	</style>
+	<meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+<script type="text/javascript">
+window.setTimeout('location.href="http://felix.hune.caro-os.de/lernzettel.html"', 300000);
+var timeleft = 300
+var downloadTimer = setInterval(function(){
+	document.getElementById("progressBar").value = 300 - --timeleft;
+	if(timeleft <= 0)
+		clearInterval(downloadTimer);
+},1000);
+</script>
+<p>Geduld... <progress value="0" max="300" id="progressBar"></progress></p>
+</html>

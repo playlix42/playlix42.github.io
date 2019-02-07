@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Unterschriftenzettel</title>
+	<link href="css-box-modell.css" rel="stylesheet">
+</head>
+<body>
+
+<h3 style=te>Hallo</p>
+
+<script language="javascript">
+<!--
+function vergleiche(a, b) {
+return (a == b) ? true : false;
+}
+function passwort(form) {
+if(vergleiche("zzpm", form.pass.value)) 
+window.location = "http://felix.hune.caro-os.de/index.html";
+ else {
+alert("das Passwort ist falsch!");
+form.pass.select();
+form.pass.focus();
+}
+}
+// -->
+</script>
+<form name="geheim">
+Passwort: <input type="text" name="pass" />
+<input type="button" value="Abschicken!" onclick="passwort(this.form)" />
+</form>
+</body>
+</html>
