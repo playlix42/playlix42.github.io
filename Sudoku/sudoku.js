@@ -184,7 +184,7 @@ function reset(){
 		drawSudoku();
 	}
 }
-function mousePressed(){
+/**function mousePressed(){
 	//Wurde der passende Knopf gedrückt?
 	if (mouseButton == LEFT){
 		//Feld auswählen
@@ -201,9 +201,9 @@ function mousePressed(){
 	strokeWeight(5);
 	noFill();
 	rect(selected[0] * feld, selected[1] * feld, feld, feld);
-}
+}*/
  /**Funktion aktualisiert die Buttons des Feldes (x,y), damit keine invaliden Zahlen eingegeben werden können*/
-function updateButtons(x, y){
+/**function updateButtons(x, y){
 	
 	updateAll();
 	var valids;
@@ -226,6 +226,7 @@ function updateButtons(x, y){
 		}
 	}
 }
+*/
 /** Initialisiert das Sudoku-Array*/
 function makeSudoku(rows, columns){
 	//Erstelle das Sudoku-Array
