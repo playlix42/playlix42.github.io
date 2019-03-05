@@ -141,7 +141,7 @@ function keyPressed() {
  /** Nimmt die Eingabe der Buttons entgegen und setzt die Zahlen entsprechend*/
 function input(num){
 	setNum(selected[0], selected[1], num, true);
-	//updateButtons(selected[0], selected[1]);
+	updateButtons(selected[0], selected[1]);
 	drawSudoku();
 }
 /** Setzt eine Nummer in ein Feld*/
@@ -186,7 +186,7 @@ function reset(){
 }
 function mousePressed(){
 	//Wurde der passende Knopf gedrückt?
-	/**if (mouseButton == LEFT){
+	if (mouseButton == LEFT){
 		//Feld auswählen
 		if(mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height){
 			selected = [Math.floor(mouseX/feld), Math.floor(mouseY/feld)]; //Integer zum Abrunden auf das Feldraster
@@ -194,7 +194,7 @@ function mousePressed(){
 			updateButtons(selected[0], selected[1]);
 		}
 	}
-	//Vorige Auswahl löschen*/
+	//Vorige Auswahl löschen
 	drawSudoku();
 	//Neue Auswahl einzeichnen
 	stroke(0, 100, 255);
@@ -203,7 +203,7 @@ function mousePressed(){
 	rect(selected[0] * feld, selected[1] * feld, feld, feld);
 }*/
  /**Funktion aktualisiert die Buttons des Feldes (x,y), damit keine invaliden Zahlen eingegeben werden können*/
-/**function updateButtons(x, y){
+function updateButtons(x, y){
 	
 	updateAll();
 	var valids;
@@ -226,7 +226,6 @@ function mousePressed(){
 		}
 	}
 }
-*/
 /** Initialisiert das Sudoku-Array*/
 function makeSudoku(rows, columns){
 	//Erstelle das Sudoku-Array
