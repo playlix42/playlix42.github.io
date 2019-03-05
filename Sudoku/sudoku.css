@@ -1,0 +1,9 @@
+.button  {
+	width: 66;
+	height: 50;
+	font-size: 25;
+}
+.eingabe{
+	position: absolute;
+	top: 640px;
+}
