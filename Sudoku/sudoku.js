@@ -184,9 +184,9 @@ function reset(){
 		drawSudoku();
 	}
 }
-/**function mousePressed(){
+function mousePressed(){
 	//Wurde der passende Knopf gedrückt?
-	if (mouseButton == LEFT){
+	/**if (mouseButton == LEFT){
 		//Feld auswählen
 		if(mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height){
 			selected = [Math.floor(mouseX/feld), Math.floor(mouseY/feld)]; //Integer zum Abrunden auf das Feldraster
@@ -194,7 +194,7 @@ function reset(){
 			updateButtons(selected[0], selected[1]);
 		}
 	}
-	//Vorige Auswahl löschen
+	//Vorige Auswahl löschen*/
 	drawSudoku();
 	//Neue Auswahl einzeichnen
 	stroke(0, 100, 255);
