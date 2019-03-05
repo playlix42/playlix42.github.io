@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+	<title>Sudokus!</title>
+	<link href="sudoku.css" type="text/css" rel="stylesheet">
+	<!-- Bibliotheken-->
+	<script src="../p5.min.js"></script>
+	<script src="../util.js"></script>
+	<!-- Ausführender Code-->
+	<script src="Field.js"></script>
+	<script src="sudoku.js"></script>
+</head>
+<body>
+	<div class="eingabe">
+		<table>
+			<!-- <tr>
+				<td><input class="button" type="button" onclick="input(1)" value="1" id="1"></td>
+				<td><input class="button" type="button" onclick="input(2)" value="2" id="2"></td>
+				<td><input class="button" type="button" onclick="input(3)" value="3" id="3"></td>
+				<td><input class="button" type="button" onclick="input(4)" value="4" id="4"></td>
+				<td><input class="button" type="button" onclick="input(5)" value="5" id="5"></td>
+				<td><input class="button" type="button" onclick="input(6)" value="6" id="6"></td>
+				<td><input class="button" type="button" onclick="input(7)" value="7" id="7"></td>
+				<td><input class="button" type="button" onclick="input(8)" value="8" id="8"></td>
+				<td><input class="button" type="button" onclick="input(9)" value="9" id="9"></td>
+			</tr> -->
+			<tr>
+				<td colspan="3"><input class="button" style="width: 204;" type="button" onclick="input(-1)" value="Clear"></td>
+				<td colspan="2"><input class="button" style="width: 134;" type="button" onclick="solve(); updateButtons(selected[0], selected[1]);" value="Solve"></td>
+				<td colspan="2"><input class="button" style="width: 134; font-size: 20;" type="button" onclick="clearAll(); updateButtons(selected[0], selected[1]);" value="Clear Sudoku"></td>
+				<td colspan="2"><input class="button" style="width: 134;" type="button" onclick="reset(); updateButtons(selected[0], selected[1]);" value="Reset"></td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
