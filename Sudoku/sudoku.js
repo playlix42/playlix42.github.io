@@ -141,7 +141,7 @@ function keyPressed() {
  /** Nimmt die Eingabe der Buttons entgegen und setzt die Zahlen entsprechend*/
 function input(num){
 	setNum(selected[0], selected[1], num, true);
-	updateButtons(selected[0], selected[1]);
+	//updateButtons(selected[0], selected[1]);
 	drawSudoku();
 }
 /** Setzt eine Nummer in ein Feld*/
