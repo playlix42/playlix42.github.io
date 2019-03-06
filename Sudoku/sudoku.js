@@ -1,4 +1,4 @@
-﻿var sudoku = [];
+var sudoku = [];
 var feld; //Feldgröße wird in setup() intialisiert
 var selected = [0, 0];
 
