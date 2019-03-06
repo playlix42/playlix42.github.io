@@ -130,7 +130,7 @@ function keyPressed() {
 		input(8);
 	} else if (key === '9') {
 		input(9);
-	} else if (keyCode === DELETE) {
+	} else if (keyCode === BACKSPACE) {
 		input(-1);
 	}
 }
